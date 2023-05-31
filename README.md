@@ -1,4 +1,7 @@
 # Implementation of LSTM and GRU cells for PyTorch
+## 注意
+## 此文档没有实现stack_lstm/gru， 可以直接用torch.nn.GRU或torch.nn.LSTM替代底层cell。
+## 此文档的主要价值是实现循环的状态转移，在model类中进行了实现
 
 
 
